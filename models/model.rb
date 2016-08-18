@@ -1,4 +1,5 @@
 def get_sights(state, type)
+
   states = {
       CT:{
         food:{
@@ -12,6 +13,6 @@ def get_sights(state, type)
           fun:["Mark Twain House located at 351 Farmington Ave", "Wadsworth Atheneum located at 600 Main St"]
           }
         }
-      }
-return states[state][type]
+    }
+states[state.to_sym][type.to_sym]
 end
