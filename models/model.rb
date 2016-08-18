@@ -13,4 +13,5 @@ def get_sights(state, type)
           }
         }
       }
+return states[state][type]
 end
