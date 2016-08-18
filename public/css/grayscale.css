@@ -140,6 +140,7 @@ a:focus {
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  vertical-align: middle;
 }
 @media (min-width: 768px) {
   .intro {
