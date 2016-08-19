@@ -8,6 +8,7 @@ class ApplicationController < Sinatra::Base
   end
   post '/answers' do
     @final_hash = get_sights(params[:state], params[:type])
+    @state = params[:state]
     @stops = @final_hash[:stops]
     @fun = @final_hash[:fun]
     @img = @final_hash[:img]
